@@ -1,0 +1,20 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    /* Completeness */
+    "skipLibCheck": true,
+     "baseUrl": ".", 
+    "paths": {
+      "@screens": ["src/screens"],
+      "@navigation":["src/navigation"],
+      "@components/*":["src/components/*"],
+      "@store":["src/store"],
+      "@customTypes/*":["src/types/*"],
+      "@api":["src/api"],
+      "@resource/*":["src/resources/images/*"],
+      "@customHooks":["src/hooks/arrayFilter"]
+    }
+  }
+}
